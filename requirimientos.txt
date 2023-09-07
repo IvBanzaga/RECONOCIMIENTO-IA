@@ -1,0 +1,18 @@
+#Creación de un entorno virtual
+ python -m venv reconocimiento
+ 
+#Activar entorno
+reconocimiento\Scripts\activate 
+
+#Desactivar entorno
+deactivate
+
+#Instalación de bibliotecas
+
+pip install face-recognition
+pip install opencv-contrib-python
+pip install click
+pip install colorama
+pip install face-recognition-models
+pip install numpy
+pip install Pillow
